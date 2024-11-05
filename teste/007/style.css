@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+:root {
+    --cor0:#c5ebd6;
+    --cor1: #f58634;
+    --cor2:#3ddc84;
+    --cor3:#949494;
+    --cor4:#1a5c37;
+    --cor5:#063d1e;
+    
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue';
+    --fonte-android: 'Androrid';
+}
+
+# {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+header > img {
+    padding-left: 13px;
+    max-width: 500px;
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: black;
+    text-align: justify;
+    text-indent: 10px;
+    margin: 15px 5px;
+    padding: 10px;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 3px;
+    }
